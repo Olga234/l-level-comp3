@@ -1,0 +1,43 @@
+html {
+  font-size: 18px; }
+
+body {
+  margin: 0 auto; }
+
+nav {
+  margin: 50px; }
+  nav ul li {
+    list-style: none; }
+    nav ul li a {
+      text-decoration: none;
+      color: black; }
+    nav ul li .green {
+      color: green; }
+    nav ul li:nth-child(2n) {
+      font-size: 20px; }
+    nav ul li:nth-child(3n+1) {
+      background: yellow; }
+    nav ul li :hover {
+      background: cadetblue;
+      font-size: 35px;
+      box-shadow: 0.1em 0.2em red; }
+    nav ul li :before {
+      content: "-"; }
+
+.block1 {
+  margin: 100px 50px; }
+  .block1 :first-child {
+    color: pink;
+    font-size: 2rem; }
+  .block1 #greycol {
+    color: grey; }
+  .block1 div p:last-child {
+    color: red;
+    font-size: 1.5em; }
+  .block1 :nth-last-child(2) {
+    color: green; }
+  .block1 :nth-last-child(1) {
+    color: yellow;
+    font-size: 2em; }
+
+/*# sourceMappingURL=style.css.map */
